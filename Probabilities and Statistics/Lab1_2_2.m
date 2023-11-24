@@ -1,0 +1,10 @@
+x=0:0.1:3;
+subplot(2,1,1);
+plot(x, x.^5/10, "--k;5 function;");
+xlabel("x");
+ylabel("y");
+title("Some graphs");
+subplot(2,1,2);
+plot(x, cos(x), ":r;cos(x);");
+xlabel("x");
+ylabel("y");

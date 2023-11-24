@@ -1,0 +1,84 @@
+------------------------------------------------------
+-----ExecutionStack-----
+Step 1: Declaration{ a bool }; a = BinaryExpression{ ( 2 < 13 ) AND ( 10 >= 4 ) }; print( a )
+
+-----OutputList-----
+[]
+-----SymbolTable-----
+
+------FileTable------
+
+------------------------------------------------------
+
+
+------------------------------------------------------
+-----ExecutionStack-----
+Step 2: print( a )
+Step 1: Declaration{ a bool }; a = BinaryExpression{ ( 2 < 13 ) AND ( 10 >= 4 ) }
+
+-----OutputList-----
+[]
+-----SymbolTable-----
+
+------FileTable------
+
+------------------------------------------------------
+
+
+------------------------------------------------------
+-----ExecutionStack-----
+Step 3: print( a )
+Step 2: a = BinaryExpression{ ( 2 < 13 ) AND ( 10 >= 4 ) }
+Step 1: Declaration{ a bool }
+
+-----OutputList-----
+[]
+-----SymbolTable-----
+
+------FileTable------
+
+------------------------------------------------------
+
+
+------------------------------------------------------
+-----ExecutionStack-----
+Step 2: print( a )
+Step 1: a = BinaryExpression{ ( 2 < 13 ) AND ( 10 >= 4 ) }
+
+-----OutputList-----
+[]
+-----SymbolTable-----
+Variable name: a Value: false
+
+------FileTable------
+
+------------------------------------------------------
+
+
+------------------------------------------------------
+-----ExecutionStack-----
+Step 1: print( a )
+
+-----OutputList-----
+[]
+-----SymbolTable-----
+Variable name: a Value: true
+
+------FileTable------
+
+------------------------------------------------------
+
+
+------------------------------------------------------
+-----ExecutionStack-----
+
+-----OutputList-----
+[true]
+-----SymbolTable-----
+Variable name: a Value: true
+
+------FileTable------
+
+------------------------------------------------------
+
+
