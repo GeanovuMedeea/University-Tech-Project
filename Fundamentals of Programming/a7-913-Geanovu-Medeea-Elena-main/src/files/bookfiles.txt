@@ -1,0 +1,9 @@
+A-1-2-3-4;The Hobbit;J.R.R. Tolkien
+9-AV-2-5-1;Everyday;David Levithan
+J-76-H-A-89;Pride and Prejudice;Jane Austen
+N-1-5-13-F;Don Quixote;Miguel de Cervantes
+H-9-141-G-1;The Little Prince;Antoine de Saint-Exupery
+A-62-G-141-A;The Odyssey;Homer
+B-7-AFA-24-A;Life of Pi;Yann Martel
+L-F-123-52-4;Ana Karenina;Lev Tolstoi
+88-141-123-1-1;Frankenstein;Mary Shelley
