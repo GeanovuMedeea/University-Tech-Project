@@ -1,0 +1,5 @@
+1. eu nu am ce, face azi, fiindca na
+2. tkajgbfa,adsadasd fah ADSADAS
+3. bjfahvf, fdafda, afdafadsfadfad afdA
+
+grep "[,][a-z0-9 ]*[,]" example.txt | grep -E "[a-z]$" | grep "^[0-9]*[13579]" | sed "y/oieOIE/@\!3@\!3/" | awk '{print $2,$3,$4}'

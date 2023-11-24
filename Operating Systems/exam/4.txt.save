@@ -1,0 +1,3 @@
+A critical section refers to a specific portion of a program where shared resources,
+such as variables, data structures, or devices, are accessed and modified by multiple
+concurrent processes or threads. It is a fundamental concept in concurrent programming and synchronization.
