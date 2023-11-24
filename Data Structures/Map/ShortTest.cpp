@@ -1,0 +1,58 @@
+#include "ShortTest.h"
+#include <assert.h>
+#include "Map.h"
+#include "MapIterator.h"
+#include <iostream>
+
+
+void testAll() { //call each function to see if it is implemented
+	Map m;
+	assert(m.isEmpty() == true);
+	assert(m.size() == 0); //add elements
+	assert(m.add(5,5)==NULL_TVALUE);
+	assert(m.add(1,111)==NULL_TVALUE);
+	assert(m.add(10,110)==NULL_TVALUE);
+	assert(m.add(7,7)==NULL_TVALUE);
+	assert(m.add(1,1)==111);
+	assert(m.add(10,10)==110);
+	assert(m.add(-3,-3)==NULL_TVALUE);
+	assert(m.size() == 5);
+	assert(m.search(10) == 10);
+	assert(m.search(16) == NULL_TVALUE);
+	assert(m.remove(1) == 1);
+	assert(m.remove(6) == NULL_TVALUE);
+	assert(m.size() == 4);
+
+
+	TElem e;
+	MapIterator id = m.iterator();
+	id.first();
+	int s1 = 0, s2 = 0;
+	while (id.valid()) {
+		e = id.getCurrent();
+		s1 += e.first;
+		s2 += e.second;
+		//std::cout << e.first << " " << e.second << std::endl;
+		id.next();
+	}
+	//std::cout << "s1: " << s1 << " s2: " << s2;
+	assert(s1 == 19);
+	assert(s2 == 19);
+
+	id.first();
+	for (int i = 0; i < 2; i++)
+		id.next();
+
+	id.jumpBackward(3);
+	assert(id.getCurrent().first == 10);
+	assert(id.getCurrent().second == 10);
+
+	id.jumpBackward(1);
+	//std::cout << id.getCurrent().first << " " << id.getCurrent().second;
+	assert(id.getCurrent().first == 5);
+	assert(id.getCurrent().second == 5);
+	//std::cout << id.getCurrent().first << " " << id.getCurrent().second;
+
+	id.jumpBackward(1);
+	assert(id.valid() == false);
+}
