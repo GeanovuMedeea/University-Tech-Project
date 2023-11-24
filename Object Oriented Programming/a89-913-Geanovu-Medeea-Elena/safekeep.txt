@@ -1,0 +1,10 @@
+1,Star Wars,SF,1977,140,https://www.youtube.com/watch?v=L-_xHEv0l-w&ab_channel=RottenTomatoesClassicTrailers,
+2,Jurassic Park,Adventure,1993,200,https://www.youtube.com/watch?v=_jKEqDKpJLw&ab_channel=Amblin,
+3,Pirates of the Carribean,Action,2003,150,https://www.youtube.com/watch?v=naQr0uTrH_s&ab_channel=RottenTomatoesClassicTrailers,
+4,Blade Runner,SF,2019,50,https://www.youtube.com/watch?v=gCcx85zbxz4&ab_channel=WarnerBros.Pictures,
+5,The Last Unicorn,Animation,1982,37,https://www.youtube.com/watch?v=Z1aX1i79rY8&ab_channel=RottenTomatoesClassicTrailers,
+6,Alien,Horror,1979,95,https://www.youtube.com/watch?v=jQ5lPt9edzQ&ab_channel=RottenTomatoesTrailers,
+7,Toy Story,Animation,1995,210,https://www.youtube.com/watch?v=v-PjgYDrg70&ab_channel=RottenTomatoesClassicTrailers,
+8,Black Panther,Action,2018,79,https://www.youtube.com/watch?v=xjDjIWPwcPU&ab_channel=MarvelEntertainment,
+9,Tangled,Animation,2010,155,https://www.youtube.com/watch?v=2f516ZLyC6U&ab_channel=WaltDisneyAnimationStudios,
+10,Dacii,History,1967,110,https://www.youtube.com/watch?v=gbSV7-YZOGU&ab_channel=AlexandruCatrina
