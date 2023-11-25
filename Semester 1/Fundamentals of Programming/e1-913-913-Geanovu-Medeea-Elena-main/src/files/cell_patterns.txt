@@ -1,0 +1,4 @@
+tub 0,0
+block 3,3
+blinker 7,0
+glider 3,0
