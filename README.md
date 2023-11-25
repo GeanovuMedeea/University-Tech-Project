@@ -85,3 +85,7 @@ Space where all of my coding or tech related projects are stored, most of them c
         </ul>
     </li>
 </ul>
+
+# High School Projects
+Low level, small programming projects or ideas.
+-UNDER WORK-
