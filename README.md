@@ -11,7 +11,7 @@ Space where all of my coding or tech related projects are stored, most of them c
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%201/Computational%20Logic">
-                    💭: Computational Logic
+                    💭 Computational Logic
                 </a>
             </li>
             <li>
@@ -26,7 +26,7 @@ Space where all of my coding or tech related projects are stored, most of them c
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%201/Mathematical%20Analysis">
-                    📉: Mathematical Analysis
+                    📉 Mathematical Analysis
                 </a>
             </li>
         </ul>
@@ -35,12 +35,12 @@ Space where all of my coding or tech related projects are stored, most of them c
         <ul>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%202/Data%20Structures">
-                    🏗️: Data Structures
+                    🏗️ Data Structures
                 </a>
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%202/Graph%20Algorithms">
-                    🕸️: Graph Algorithms
+                    🕸️ Graph Algorithms
                 </a>
             </li>
             <li>
@@ -59,17 +59,17 @@ Space where all of my coding or tech related projects are stored, most of them c
         <ul>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%203/Advanced%20Programming%20Methods">
-                    ☕: Advanced Programming Methods
+                    ☕ Advanced Programming Methods
                 </a>
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%203/Databases">
-                    📰: Databases
+                    📰 Databases
                 </a>
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%203/Computer%20Networks">
-                    📶: Computer Networks
+                    📶 Computer Networks
                 </a>
             </li>
             <li>
@@ -79,7 +79,7 @@ Space where all of my coding or tech related projects are stored, most of them c
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%203/Logical%20and%20Functional%20Programming">
-                    📖: Logical and Functional Programming
+                    📖 Logical and Functional Programming
                 </a>
             </li>
         </ul>
