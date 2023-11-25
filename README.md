@@ -11,7 +11,7 @@ Space where all of my coding or tech related projects are stored, most of them c
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%201/Computational%20Logic">
-                    :thought_baloon: Computational Logic
+                    💭: Computational Logic
                 </a>
             </li>
             <li>
@@ -26,7 +26,7 @@ Space where all of my coding or tech related projects are stored, most of them c
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%201/Mathematical%20Analysis">
-                    :decreasing_chart: Mathematical Analysis
+                    📉: Mathematical Analysis
                 </a>
             </li>
         </ul>
