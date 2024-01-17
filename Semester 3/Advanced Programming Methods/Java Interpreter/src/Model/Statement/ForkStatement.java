@@ -26,9 +26,11 @@ public class ForkStatement implements IStatement{
 
     @Override
     public ProgramState execute(ProgramState state) throws IOException, ToyLanguageInterpreterException {
-        MyStack<IStatement> newExeStack = new MyStack<>();
-        newExeStack.push(statement);
-        return new ProgramState(newExeStack, state.getSymbolTable().createDictionaryDuplicate(), state.getHeap(), state.getOutputList(), statement.cloneStatement(), state.getFileTable());
+        MyStack<IStatement> forkExeStack = new MyStack<>();
+        //forkExeStack.push(statement);
+        //state.setState(forkExeStack, state.getSymbolTable().createDictionaryDuplicate(), state.getHeap(), state.getOutputList(), statement.cloneStatement(), state.getFileTable());
+        return new ProgramState(forkExeStack, state.getSymbolTable().createDictionaryDuplicate(), state.getHeap(), state.getOutputList(), statement.cloneStatement(), state.getFileTable());
+        //return state;
     }
 
     @Override
