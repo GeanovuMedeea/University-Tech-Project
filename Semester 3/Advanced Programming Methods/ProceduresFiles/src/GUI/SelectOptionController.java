@@ -170,10 +170,9 @@ public class SelectOptionController implements Initializable {
                 new AssignStatement("w", new ConstantExpression(new IntValue(5))),
                 new CallProcStatement("sum", new ArrayList<>(Arrays.asList(new ArithmeticExpression(new VariableExpression("v"), new ConstantExpression(new IntValue(10)),OperationSelection.MULTIPLY), new VariableExpression("w")))),
                 new PrintStatement(new VariableExpression("v")),
-                new ForkStatement(buildExample(
-                new CallProcStatement("product", new ArrayList<>(Arrays.asList(new VariableExpression("v"), new VariableExpression("w")))),
+                new ForkStatement(new CallProcStatement("product", new ArrayList<>(Arrays.asList(new VariableExpression("v"), new VariableExpression("w"))))),
                 new ForkStatement(new CallProcStatement("sum", new ArrayList<>(Arrays.asList(new VariableExpression("v"), new VariableExpression("w"))))
-                )))
+                )
         );
 
         programStatements = new ArrayList<>(Arrays.asList(ex1, ex2, ex3, ex4, ex5, ex6, ex7, ex8, ex9, ex10, ex11, ex12,ex13,ex14));}
@@ -188,7 +187,7 @@ public class SelectOptionController implements Initializable {
 
         IStatement sumProc = buildExample(
                 new DeclarationStatement("v", new IntType()),
-                new AssignStatement("v", new ArithmeticExpression(new VariableExpression("a"), new VariableExpression("b"),OperationSelection.MULTIPLY)),
+                new AssignStatement("v", new ArithmeticExpression(new VariableExpression("a"), new VariableExpression("b"),OperationSelection.PLUS)),
                 new PrintStatement(new VariableExpression("v")));
 
         List<String> varSum = new ArrayList<>();
