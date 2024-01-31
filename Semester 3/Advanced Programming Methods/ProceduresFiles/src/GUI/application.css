@@ -1,0 +1,54 @@
+#AnchorPane {
+    -fx-background-color: #F3E7FF;
+}
+
+#outputListView {
+    -fx-control-inner-background: #D1C6E4;
+    -fx-border-color: #8C6C9B;
+}
+
+#fileTableView {
+    -fx-control-inner-background: #D1C6E4;
+    -fx-border-color: #8C6C9B;
+}
+
+#programStateListView {
+    -fx-control-inner-background: #D1C6E4;
+    -fx-border-color: #8C6C9B;
+}
+
+#symbolTableView {
+    -fx-control-inner-background: #D1C6E4;
+    -fx-border-color: #8C6C9B;
+}
+
+#numberOfProgramStatesTextField {
+    -fx-background-color: #D1C6E4;
+    -fx-border-color: #8C6C9B;
+}
+
+#executeOneStepButton {
+    -fx-background-color: #8C6C9B;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: 'Francois One';
+}
+
+#executionStackListView {
+    -fx-control-inner-background: #D1C6E4;
+    -fx-border-color: #8C6C9B;
+}
+
+#heapTableView {
+    -fx-control-inner-background: #D1C6E4;
+    -fx-border-color: #8C6C9B;
+}
+
+Label {
+    -fx-font-family: 'Georgia';
+    -fx-font-size: 12.0;
+}
+
+#executeOneStepButton .label {
+    -fx-font-family: 'Francois One';
+    -fx-font-size: 18.0;
+}
