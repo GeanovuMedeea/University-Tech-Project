@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Falling Ball</title>
+<style>
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        background-color: #efe6f0;
+    }
+
+    .container {
+        width: 100px; 
+        height: 100px;
+    }
+
+    .ball {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #71169e;
+        position: absolute;
+        top: 0;
+        transition: top 0.5s ease;
+    }
+    
+    @keyframes bounce {
+        0% {
+            transform: translateY(-100px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .container:hover .ball {
+        top: calc(86.3vh);
+        animation: bounce 1s infinite alternate;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="ball"></div>
+</div>
+</body>
+</html>

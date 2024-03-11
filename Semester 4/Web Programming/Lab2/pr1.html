@@ -1,0 +1,72 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fancy Square</title>
+<style>
+  body {
+    background-color: #efe6f0;
+  }
+  
+  .container {
+    margin: auto;
+    padding: 200px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+  }
+
+  .top, .left, .right, .bottom {
+    box-sizing: border-box;
+    border-style: solid;
+    position: absolute;
+    background-color: transparent;
+    border-width: 25px;
+    border-color: #71169e;
+  }
+
+  .top {
+    top: -5px; /* Adjusted position to create space between corners */
+    left: 50%; /* Adjusted position to center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 95%; /* Adjusted width */
+    border-bottom: none;
+  }
+
+  .left {
+    top: 50%; /* Adjusted position to center vertically */
+    left: -5px; /* Adjusted position to create space between corners */
+    transform: translateY(-50%); /* Center vertically */
+    height: 95%; /* Adjusted height */
+    border-right: none;
+  }
+
+  .right {
+    top: 50%; /* Adjusted position to center vertically */
+    right: -5px; /* Adjusted position to create space between corners */
+    transform: translateY(-50%); /* Center vertically */
+    height: 95%; /* Adjusted height */
+    border-left: none;
+  }
+
+  .bottom {
+    bottom: -5px; /* Adjusted position to create space between corners */
+    left: 50%; /* Adjusted position to center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 95%; /* Adjusted width */
+    border-top: none;
+  }
+
+</style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="top"></div>
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="bottom"></div> 
+  </div>
+</body>
+</html>
