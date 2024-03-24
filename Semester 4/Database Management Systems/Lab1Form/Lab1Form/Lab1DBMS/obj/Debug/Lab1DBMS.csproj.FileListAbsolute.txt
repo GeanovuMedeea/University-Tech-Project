@@ -1,0 +1,10 @@
+C:\Users\geano\Desktop\Facultate\University-Tech-Project\Semester 4\DBMS\Lab1DBMS\bin\Debug\Lab1DBMS.exe.config
+C:\Users\geano\Desktop\Facultate\University-Tech-Project\Semester 4\DBMS\Lab1DBMS\bin\Debug\Lab1DBMS.exe
+C:\Users\geano\Desktop\Facultate\University-Tech-Project\Semester 4\DBMS\Lab1DBMS\bin\Debug\Lab1DBMS.pdb
+C:\Users\geano\Desktop\Facultate\University-Tech-Project\Semester 4\DBMS\Lab1DBMS\obj\Debug\Lab1DBMS.csproj.AssemblyReference.cache
+C:\Users\geano\Desktop\Facultate\University-Tech-Project\Semester 4\DBMS\Lab1DBMS\obj\Debug\Lab1DBMS.Form1.resources
+C:\Users\geano\Desktop\Facultate\University-Tech-Project\Semester 4\DBMS\Lab1DBMS\obj\Debug\Lab1DBMS.Properties.Resources.resources
+C:\Users\geano\Desktop\Facultate\University-Tech-Project\Semester 4\DBMS\Lab1DBMS\obj\Debug\Lab1DBMS.csproj.GenerateResource.cache
+C:\Users\geano\Desktop\Facultate\University-Tech-Project\Semester 4\DBMS\Lab1DBMS\obj\Debug\Lab1DBMS.csproj.CoreCompileInputs.cache
+C:\Users\geano\Desktop\Facultate\University-Tech-Project\Semester 4\DBMS\Lab1DBMS\obj\Debug\Lab1DBMS.exe
+C:\Users\geano\Desktop\Facultate\University-Tech-Project\Semester 4\DBMS\Lab1DBMS\obj\Debug\Lab1DBMS.pdb
