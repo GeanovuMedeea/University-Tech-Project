@@ -1,0 +1,42 @@
+.image-previews{
+    background-color: powderblue;
+    flex:1;
+    flex-direction: column;
+    display: flex;
+    max-width:1500px;
+    margin:auto;
+    height:720px;
+}
+
+.image-row{
+    width:1500px;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+
+.preview-image{
+    padding: 40px;
+    flex:20%;
+    height: 100px;
+    width: 60px;
+    border-radius: 1px;
+    border: solid lightseagreen;
+}
+
+.enlarged-image{
+    border-radius: 1px;
+    border:solid lightseagreen;
+    border-top: transparent;
+}
+
+/*
+    <div class="image-row">
+        <img class="preview-image" src="img1.jpg" alt="prev1">
+        <img class="preview-image" src="img2.jpg" alt="prev2">
+        <img class="preview-image" src="img3.jpg" alt="prev3">
+        <img class="preview-image" src="img4.jpg" alt="prev4">
+        <img class="preview-image" src="img5.jpg" alt="prev5">
+        <img class="preview-image" src="img6.jpg" alt="prev6">
+    </div>
+*/

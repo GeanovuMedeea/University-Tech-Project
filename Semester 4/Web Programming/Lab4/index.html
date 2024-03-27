@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Moth time</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            let imageContainerForAll=document.createElement("div");
+            imageContainerForAll.classList.add("image-previews");
+
+            let imagePreviews=document.createElement("div");
+            imagePreviews.classList.add("image-row");
+
+            let enlargedImage =document.createElement("img");
+            enlargedImage.src="";
+            enlargedImage.classList.add("enlarged-image");
+
+            imageContainerForAll.appendChild(imagePreviews);
+            imageContainerForAll.appendChild(enlargedImage);
+            document.body.appendChild(imageContainerForAll);
+
+            const imageSources = ['img1.jpg','img2.jpg','img3.jpg','img4.jpg','img5.jpg','img6.jpg'];
+
+            function setImage(src) {
+                let img = document.createElement("img");
+                img.src = src;
+                img.classList.add("preview-image");
+                img.addEventListener('mouseover', () => {
+                    enlargedImage.src = img.src;
+                });
+                imagePreviews.appendChild(img);
+            }
+
+            imageSources.forEach((src) => {
+                setImage(src);
+            });
+        </script>
+    </body>
+</html>
