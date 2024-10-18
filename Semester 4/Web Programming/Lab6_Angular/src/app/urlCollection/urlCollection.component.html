@@ -1,0 +1,39 @@
+<header>
+    <h1>URL Database</h1>
+</header>
+<div id="urlsTable">
+    <table>
+        <thead>
+        <tr>
+            <th>URL</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Delete</th>
+            <th>Edit</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let url of urls">
+            <td><a href="{{ url.url }}">{{ url.url }}</a></td>
+            <td>{{ url.urlDescription }}</td>
+            <td>{{ url.category }}</td>
+            <td><button (click)="deleteUrl(url.id)" class="deleteButton">Delete</button></td>
+            <td><button (click)="editUrl(url.id)" class="editButton">Edit</button></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div id="paginationButtons">
+        <button (click)="prevPage()" [disabled]="currentPage === 1">Previous</button>
+        <button (click)="nextPage()">Next</button>
+    </div>
+    <label for="category">Category:</label>
+    <input type="text" id="category" name="category" [(ngModel)]="category" (input)="loadUrls()">
+    <br>
+    <div style="display: flex; flex-direction: row">
+        <label for="sortAlphabetically"> Sort alphabetically</label>
+        <input type="checkbox" id="sortAlphabetically" name="sortAlphabetically" [(ngModel)]="sortAlphabetically" (change)="sortUrlsAlphabetically()">
+    </div>
+
+    <button routerLink="/add">Add URL</button>
+</div>

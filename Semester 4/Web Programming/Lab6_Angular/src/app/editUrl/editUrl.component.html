@@ -1,0 +1,15 @@
+<h2>Edit URL</h2>
+<form (ngSubmit)="submitForm()">
+    <label for="url">URL:</label>
+    <input type="text" id="url" name="url" [(ngModel)]="url" required><br>
+
+    <label for="urlDescription">Description:</label>
+    <input type="text" id="urlDescription" name="urlDescription" [(ngModel)]="urlDescription"><br>
+
+    <label for="category">Category:</label>
+    <input type="text" id="category" name="category" [(ngModel)]="category"><br>
+
+    <button type="submit">Save</button>
+    <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+</form>
+
