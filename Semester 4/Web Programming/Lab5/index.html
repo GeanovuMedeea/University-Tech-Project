@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Text Select</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <script>
+       $(document).ready(function(){
+
+        function highlightWord(selectedText){
+            $('.highlight').removeClass('highlight');
+            let text = new RegExp("\\b" + selectedText + "\\b", "gi");
+            $('#text').html($('#text').html().replace(text, function(matched){
+                return '<b>' + matched + '</b>';
+            }));
+        }
+
+        $("#text").dblclick(function(e){
+            let selectedText = window.getSelection().toString().trim();
+            if(selectedText.length> 0){
+                highlightWord(selectedText);
+            }
+        });
+    });
+    </script>
+    <body>
+        <div id="text">
+        <p>
+            Apsu was the previous 5th Balaur Lord, and ascended at the same time as Beritra, being soon followed by Tiamat. Fregion had decided that (with Apsu) his formation was perfect, as a five pointed star, and that there would be no other additions to the ranks of the Dragon Lords. That's why Tiamat at start could not be included among them.
+Character
+He is noted to be the least violent among the Dragon Lords, being focused on accumulating wealth and securing his lands. Apsu was described as being cool-headed, calm, open-minded and accepting, which had won over many Balaur tribes which willingly joined him and supported him to be appointed as a Dragon Lord. Curiously, the Balaur are known for their arrogance and interest for self-gain, so this supportive behavior is quite unusual. He was remarkable not only for his excellent strategies that had won many battles against the Daevas, but also for his talent for diplomacy. He was also a powerful sorcerer.
+
+His greatest flaw was his pride, which turned out to become the catalyst for his downfall. There are mentions that he suddenly refused to consider advice from his counselors, perhaps being excessively certain of his own ideas and principles. (“There are indications that Apsu was an extremely proud creature, unwilling to compromise or entertain advice.")
+
+History
+Bu ap lb mural 01a 4
+Apsu as depicted in an ingame mural
+
+The fate of this individual was severed short by the treason of one certain member of his Protectorate, Tiamat, who started as a General of a minor army troop. She proved herself in battle and managed to hide her true motives and intentions behind a steely façade of loyalty and calmness, but the fact that Tiamat and Apsu were complete opposites cannot be denied. Tiamat has always been ambitious and furious, displeased with the fact she hasn't even been given a chance at becoming a Dragon Lord, the book “The Sixth Dragon” mentions that she lived in isolation and was upset she wasn’t acknowledged for her abilities after she ascended. As Apsu held Tiamat in high regard, she was promoted to the position of his personal bodyguard. This allowed Tiamat to plan his assassination and sow discontent among his Generals in secret.
+
+No one knows how Tiamat managed to best him, be either curses, poisons, an assassination in his sleep (being stabbed right through his neck with an enchanted dagger) or surprise attack with the Balaur she had managed to win over, as no corpse was found, only a dagger hidden inside Tiamat’s Stronghold, which still held Apsu’s terrifying hate after centuries. There are rumours that Tiamat ripped open his chest, took out his heart and threw it into a volcano which burned for 1000 years. Afterwards, Tiamat managed to seize full control of Apsu's ruling position with amazing efficacity. She presented an altered version on how Apsu died to the remaining Dragon Lords and a fait accompli when she tried to convince them so that she were to be appointed the 5th, but she still got found out and was exiled.
+
+The clearest example of what a Balaur did to awaken is Apsu’s. He awakened as a dragon by using Io, a rare material in liquid state that can not only strengthen the body but also improve vitality. It is found in abundance in Apsaranta, and it might have a possible connection to the Book of Prophecy (EU/KR version) which mentions the “Water of Life” - related to how Io is descriped by Siel's Apostle/Israphel's Apostle as an older energy predating both Aether and Drana, a "molten power of creation" flowing under the earth which is impossible to be dug out as it vaporizes on contact with air. It can be extracted in small quantities from plants, creatures and ore.
+
+Legacy of Splendour (7.0)
+Although Apsu has died before the beggining of Aion's story, during the update 7.0 the lands of Demaha/DumahaEU are discovered, which used to be under Apsu's rule before Tiamat took over and destroyed them, as she controls the earth and gravity, being the one behind the volcanic environment and scorched deserts, wiping off any signs of civilization with the exception of the Apmaha/SnuwaEU, humanoids who worship Apsu as a god up to this day and raised altars in his name as during Apsu's reign the lands were fertile. The latter Dragon Lord still protects the Snuwa even in death. Now Demaha is claimed by Stellin Industries/StellaEU whose assumed intentions are to develop the area.
+
+This claim was nothing but a guise. Behind the scenes, multiple research laboratories conduct experiments on live subjects, studying the effects of NK-VI (Nakisix) usage, a drug like substance resulted from other experiments done on Balaur. Stella took over Demaha to find and use any power left in the ruins and relics scattered across the land to advance their project "Awakening of the Dragon Lord", their main candidate being Inanna.
+
+Silentera: Time Fold (7.7)
+In 7.7 with the help of Irunin, the original Vandal/PainterEU we discover a relic of the Jotun, Tempus Ipsum, while scouting Timeless Terrace/Tempus FugitEU, an underground area connected to Silentera Canyon, which was fashioned after the powers of Lady Siel, being able to view the future and also travel to a certain point in time, although only once. Tempus Ipsum shows a vision in which Inanna, a girl half human, half Balaur, is crowned as a new Dragon Lord by Apsu, an event which brings a terrible calamity upon the world.
+
+Apsaranta : Sanctuary (7.9 - 8.5)
+As of 8.0, the barrier hiding Apsaranta/AphsarantaEU was weakened enough to reveal this region of southern Balaurea. After Tiamat murdered Apsu, usurped his throne and ascended to become a Dragon Lord, she focused her energy on destroying everything he's ever done and either convinced his followers to join her or forced them into submission. She then sealed away Apsaranta behind a barrier in the same way she will have sealed away Ereshkigal in Drakenspire Depths/MakarnaEU. It’s said that many treasures, technology and resources lie hidden in Apsaranta, even though this place had been isolated for so long from the outside world. For this reason many factions settled in Apsaranta, from Reian, Popoku, Manduri, Strigik, Shulack, Rakuri, Elyos and Asmodian, determined to uncover its secrets. Among them is Stellin Industries who is trying to stop the Daevas from intervening, as Inanna is pursuing the leftover power of Apsu to assure the success of her awakening as a Dragon Lord.
+
+The pursuit leads us to enter Apsaranta's Heart/Heart of AphsarantaEU, located in the Apsu Temple, an imposing building overseeing the lands. There we travel to multiple future timelines by using Tempus Ipsum trying to avoid Inanna's ascension, its multiple use being possible by the temple's strange ability of returning any object inside to a previous state in the past. Neither talking with her, eliminating Apsu's ego born from his lingering thoughts, described as a "crown twin", nor destroying his crown which embodied his power worked. Breaking the crown removed the illusion which was hiding the wretched state of Apsaranta's Heart, which was weathered to ruins and dust from the passage of time. As Irunin declared, nothing could stop this from happening and we had to adapt and prepare for war, requiring the presence of the Empyrean Lords.
+
+The recovering Daevic Troops had only managed to retrieve a recording device left at the entrance of Apsaranta's Heart, which caught a fragment of a hurried exchange between Benirung and Inanna, revealing that she had escaped from the Temple with Apsu's crown and that they will leave for a region south, past a canyon, so she can focus again on Awakening as a dragon. Apsu's followers and Stellin Industries are still cooperating.
+
+Dragon Lords are shapeshifters, therefore the form or gender they are using is just their choice. In the books, all the Dragon Lords are referred to as both male and female. In the campaign quests "A Grim Future" and "Time and Again/The Cycle of TimeEU", Apsu appears as a male siluethe.
+Seems that Apsu became very arrogant and presumptuous in life, and never listened to the advices from his generals.
+Apsu was in a relationship with Beritra. When he knew about Apsu's assassination, he swore to take vengeance against Tiamat. Some of the bloodiest battles in Daevic history happened to be against Beritra, after the news of his lover's murder became known.
+Apsu and Beritra seemingly shared army insignias, a four pointed star within a circle.
+NCSoft released a comic "Enter the Dragon Realm", which expands on the events of Apsu's death in Episode 5.
+Apsu was supposedly extremely selfish when it came to riches, as any treasures or artifacts originating from his rule are either heavily guarded or cursed. An item representing a Balaur watcher's eye mentions "Anyone who dares covet the king's riches shall face death."
+The shock of Tiamat's betrayal was the reason for Apsu's "survival". As he trusted her unconditionally and was fooled right under his nose, the grudge and fury he is still bearing allowed him to survive in spirit, seemingly acting on desperation and anger. Oherwise all Balaur die as they are rejected by Aether, what actually allows Daevas to ressurect.
+The campaign launched in Apsaranta by the Daevas is the only one to have more than two Empyrean Lords intervene directly. The Tiamaranta campaign including two, the Danaria one including two officially and two other for personal reasons. We already had Kaisinel, Marchutan, Nezekan, Zikel, Yustiel, Lumiel, Vaizel, Triniel, the Leader of the Seraphim Lords, Ariel, and the Leader of the Shedim Lords, Azphel,
+It is suggested that Apsu might have healing abilities. Multiple hot springs with healing and soothing abilities can be found in Demaha, most of the vegetation in Apsaranta can greatly boost wound healing time, and Io is used as a physical power booster if injected directly by Elyos experimental troops. Other uses include strong healing potions with severe aftereffects, making items capable of seeing through illusions, Relics and Amulets that aid Daevas in battle. Io is also extremely dangerous if used to fuel weapons, on which the Asmodians are conducting research, and also capable of opening rifts in space, on which the Elyos are focusing on as well.
+The statues in Apsaranta's Heart are brought to life when Apsu Ipso controls them, but when they are too damaged to keep moving he simply moves to another one, making it unclear how he can be defeated for good. A creepy detail is how all the statues move their heads following the players when fighting Ishkur/Pa-aq. It's revealed that this is possible because they have hearts made out of Io, which according to legend can bring life to any object.
+Dragon Lords do in fact eat, as a friendly Snuwa asks the player to fetch Roughscale Monitor meat and Ancient Water Spirit Essence to make a dish which was one of Apsu's favourites.
+The few Balaur that remained in Apsaranta after it was sealed away are still waiting for Apsu's return. The boss monster "Namtar" also has a text line mentioning "You only die once. You will rise again stronger." . Some have even fallen into madness, or rotted to an undead state, although the cause is unknown.
+Apsu's element is still unrevealed, the only clues being the numerous sun symbols in the altars present in Demaha and the names of the chambers in Apsaranta's Heart referencing weather phenomena (Lightning Altar, Thundervale, Awechill Guard Post, Glare Corridor etc.) It is possible that he is the Dragon Lord of Light, considering Beritra is the Dragon Lord of Darkness and their romantic relationship.
+Except Beninerk, a skurv and the player, Apsu's the only one who didn't shun Inanna for what she is.
+Apsu/Abzu in Sumerian or Akkadian mythology was the primordial god embodying the ocean of fresh water and wisdom below the earth and the underworld, from which springs, rivers, lakes and other sources of fresh water originate from. Apsu was the consort of Tiamat, the primordial goddess of the ocean of salt water and chaos.
+        </p>
+    </div>
+    </body>
+</html>
