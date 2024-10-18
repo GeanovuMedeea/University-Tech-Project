@@ -1,0 +1,87 @@
+{
+  "name": "Fotbal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "web": "react-scripts start"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@jest/globals": "^29.7.0",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-community/netinfo": "^11.3.1",
+    "@react-navigation/native": "^6.1.14",
+    "@react-navigation/stack": "^6.3.25",
+    "expo": "^44.0.6",
+    "expo-font": "^11.10.3",
+    "is-online": "^10.0.0",
+    "pouchdb": "^8.0.1",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-gesture-handler": "^2.15.0",
+    "react-native-paper": "^4.9.2",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0",
+    "react-native-sqlite-storage": "^6.0.1",
+    "react-native-svg": "^15.1.0",
+    "react-native-vector-icons": "^10.0.3",
+    "react-native-web": "^0.17.1",
+    "sql.js": "^1.10.3",
+    "typescript": "^4.5.4",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/plugin-transform-flow-strip-types": "^7.24.1",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.24.1",
+    "@babel/runtime": "^7.16.11",
+    "@react-native/babel-preset": "0.73.21",
+    "@react-native/eslint-config": "0.73.2",
+    "@react-native/metro-config": "0.73.5",
+    "@react-native/typescript-config": "0.73.1",
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^12.4.4",
+    "@types/jest": "^29.5.12",
+    "@types/pouchdb": "^6.4.2",
+    "@types/react": "~18.2.45",
+    "@types/react-native": "^0.73.0",
+    "@types/react-native-sqlite-storage": "^6.0.5",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.7.0",
+    "babel-preset-react-native": "^4.0.1",
+    "eslint": "^8.4.1",
+    "jest": "^29.7.0",
+    "jest-fetch-mock": "^3.0.3",
+    "prettier": "2.8.8",
+    "react-native": "^0.73.6",
+    "react-scripts": "^5.0.0",
+    "react-test-renderer": "18.2.0",
+    "ts-jest": "^29.1.2"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
