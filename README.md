@@ -84,8 +84,34 @@ Space where all of my coding or tech related projects are stored, most of them c
             </li>
         </ul>
     </li>
+     <li>:open_file_folder: Semester 4
+        <ul>
+            <li>
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Artificial%20Intelligence">
+                    🐉: Artificial Intelligence
+                </a>
+            </li>
+            <li>
+               <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Database%20Management%20Systems">
+                    🧮: Database Management Systems
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Systems%20for%20Design%20and%20Implementation">
+                    :hammer: Systems for Design and Implementation
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Software%20Engineering">
+                    🍿: Software Engineering
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Web%20Programming">
+                    🌠: Web Programming
+                </a>
+            </li>
+        </ul>
+    </li>
 </ul>
 
-# High School Projects
-Low level, small programming projects or ideas.
--UNDER WORK-
