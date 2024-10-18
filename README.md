@@ -88,27 +88,61 @@ Space where all of my coding or tech related projects are stored, most of them c
         <ul>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Artificial%20Intelligence">
-                    🐉: Artificial Intelligence
+                    🐉 Artificial Intelligence
                 </a>
             </li>
             <li>
                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Database%20Management%20Systems">
-                    🧮: Database Management Systems
+                    🧮 Database Management Systems
                 </a>
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Systems%20for%20Design%20and%20Implementation">
-                    :hammer: Systems for Design and Implementation
+                    🔨 Systems for Design and Implementation
                 </a>
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Software%20Engineering">
-                    🍿: Software Engineering
+                    🍿 Software Engineering
                 </a>
             </li>
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Web%20Programming">
-                    🌠: Web Programming
+                    🌠 Web Programming
+                </a>
+            </li>
+        </ul>
+    </li>
+     <li>:open_file_folder: Semester 5
+        <ul>
+            <li>
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Artificial%20Intelligence">
+                    📱 Mobile Applications
+                </a>
+            </li>
+            <li>
+               <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Database%20Management%20Systems">
+                    🏗️ Formal Languages and Compiler Design
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Systems%20for%20Design%20and%20Implementation">
+                    📊 Parallel and Distributed Programming
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Software%20Engineering">
+                    💜 Affective Computing
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Web%20Programming">
+                    🤖 Robotic Processes Automatization
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Web%20Programming">
+                    ⚔️ Team Project
                 </a>
             </li>
         </ul>
