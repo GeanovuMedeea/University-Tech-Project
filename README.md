@@ -116,17 +116,17 @@ Space where all of my coding or tech related projects are stored, most of them c
      <li>:open_file_folder: Semester 5
         <ul>
             <li>
-                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Artificial%20Intelligence">
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%205/Mobile%20Applications">
                     📱 Mobile Applications
                 </a>
             </li>
             <li>
-               <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Database%20Management%20Systems">
+               <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%205/Formal%20Languages%20and%20Compiler%20Design">
                     🏗️ Formal Languages and Compiler Design
                 </a>
             </li>
             <li>
-                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Systems%20for%20Design%20and%20Implementation">
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%205/Parallel%20and%20Distributed%20Programming">
                     📊 Parallel and Distributed Programming
                 </a>
             </li>
