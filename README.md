@@ -116,8 +116,8 @@ Space where all of my coding or tech related projects are stored, most of them c
      <li>:open_file_folder: Semester 5
         <ul>
             <li>
-                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%205/Mobile%20Applications">
-                    📱 Mobile Applications
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%205/Affective%20Computing">
+                    💜 Affective Computing
                 </a>
             </li>
             <li>
@@ -126,15 +126,16 @@ Space where all of my coding or tech related projects are stored, most of them c
                 </a>
             </li>
             <li>
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%205/Mobile%20Applications">
+                    📱 Mobile Applications
+                </a>
+            </li>
+            <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%205/Parallel%20and%20Distributed%20Programming">
                     📊 Parallel and Distributed Programming
                 </a>
             </li>
-            <li>
-                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%205/Affective%20Computing">
-                    💜 Affective Computing
-                </a>
-            </li>
+         
             <li>
                 <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Web%20Programming">
                     🤖 Robotic Processes Automatization
