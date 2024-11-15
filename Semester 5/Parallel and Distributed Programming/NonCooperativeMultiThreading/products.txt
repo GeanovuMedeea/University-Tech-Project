@@ -1,0 +1,15 @@
+10
+Product_1 10.5 100
+Product_2 2.5 235
+Product_3 6.5 142
+Product_4 13.6 113
+Product_5 12.4 1102
+Product_6 11 232
+Product_7 2.5 133
+Product_8 5.5 554
+Product_9 6.2 21
+Product_10 11.2 132
+
+bills size = 10
+thread number = 5
+batches = 2

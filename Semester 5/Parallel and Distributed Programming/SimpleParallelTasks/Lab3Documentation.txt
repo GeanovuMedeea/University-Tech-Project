@@ -1,0 +1,14 @@
+--Caching effects--
+When caching, the thread pools is faster on average with 1 second compared to the individually created thread pool when
+having a great number of tasks per thread, the difference being more pronounced than the fixed thread pool (which usually
+varies in the order of milliseconds.)
+
+--Costs of creating threads--
+For a greater number of tasks (for a matrix with N >= 50), the thread pool performs better than individually created
+threads for each task, even with a small or big amount of threads. When the number of tasks is small, the individually
+created threads perform significantly better (even 2 seconds faster).
+
+For N = 9 and nr of tasks = 4, the individual threads are done much faster.
+
+--Cost of switching between threads--
+I have no idea on this machine, I tried.

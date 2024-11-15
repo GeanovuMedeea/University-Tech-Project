@@ -1,0 +1,8 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundColour">#EAddE1</color>
+    <color name="textCommonColour">#A167A5</color>
+    <color name="layoutCommonColour">#F3EAF4</color>
+    <color name="cancelColour">#C4585A</color>
+</resources>

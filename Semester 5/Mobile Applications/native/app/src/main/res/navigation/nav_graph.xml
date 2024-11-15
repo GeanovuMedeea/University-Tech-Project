@@ -1,0 +1,24 @@
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" app:startDestination="@id/listFragment">
+    <!--  List Fragment  -->
+    <fragment android:id="@+id/listFragment" android:name="com.example.anative.ui.ListFragment" android:label="" tools:layout="@layout/fragment_list">
+        <action android:id="@+id/action_listFragment_to_addItemFragment" app:destination="@id/addItemFragment"/>
+        <action android:id="@+id/action_listFragment_to_detailFragment" app:destination="@id/detailFragment"> </action>
+        <action android:id="@+id/action_listFragment_to_updateItemFragment" app:destination="@id/updateFragment"> </action>
+    </fragment>
+    <!--  Add Item Fragment  -->
+    <fragment android:id="@+id/addItemFragment" android:name="com.example.anative.ui.AddItemFragment" android:label="Add Story" tools:layout="@layout/fragment_add_item"> </fragment>
+    <!--  Detail Fragment  -->
+    <fragment android:id="@+id/detailFragment" android:name="com.example.anative.ui.DetailFragment" android:label="Story Details" tools:layout="@layout/fragment_detail">
+        <action android:id="@+id/action_detailFragment_to_updateFragment" app:destination="@id/updateFragment"> </action>
+        <argument android:name="itemId" app:argType="integer"/>
+    </fragment>
+    <fragment android:id="@+id/updateFragment" android:name="com.example.anative.ui.UpdateFragment" android:label="Update Story" tools:layout="@layout/fragment_update_item">
+        <argument android:name="itemId" app:argType="integer"/>
+        <argument android:name="itemName" app:argType="string"/>
+        <argument android:name="itemOrigin" app:argType="string"/>
+        <argument android:name="itemYear" app:argType="integer"/>
+        <argument android:name="itemKeywords" app:argType="string"/>
+        <argument android:name="itemDescription" app:argType="string"/>
+        <argument android:name="itemLink" app:argType="string"/>
+    </fragment>
+</navigation>
