@@ -131,7 +131,7 @@ Space where all of my coding or tech related projects are stored, most of them c
                 </a>
             </li>
             <li>
-                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Software%20Engineering">
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%205/Affective%20Computing">
                     💜 Affective Computing
                 </a>
             </li>
