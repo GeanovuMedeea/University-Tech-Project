@@ -135,14 +135,13 @@ Space where all of my coding or tech related projects are stored, most of them c
                     📊 Parallel and Distributed Programming
                 </a>
             </li>
-         
             <li>
-                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Web%20Programming">
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/">
                     🤖 Robotic Processes Automatization
                 </a>
             </li>
             <li>
-                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/Semester%204/Web%20Programming">
+                <a href="https://github.com/GeanovuMedeea/University-Tech-Project/tree/main/">
                     ⚔️ Team Project
                 </a>
             </li>
