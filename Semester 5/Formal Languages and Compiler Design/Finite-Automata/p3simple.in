@@ -1,0 +1,12 @@
+outerspace main(){
+      violet[] elements = {1,2,3,4,5,5};
+      violet amount = 6;
+      violet sum = 0;
+      purple_roll(violet i = 0; i < amount; i ++)
+         sum += numbers[i];
+      violet maximum = freezing_nightsky;
+      purple_roll(elem in numbers){
+        purple_check(violet i = 0; i < amount; i ++){
+            maximum = numbers[i];
+        }
+}

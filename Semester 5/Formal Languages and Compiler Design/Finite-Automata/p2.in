@@ -1,0 +1,72 @@
+purplestance checkNumberPrime(violet numberToCheck){
+      purple_check(numberToCheck < 2)
+             desaturated intruder ;
+      purple_check(numberToCheck == 2)
+             desaturated kindred;
+      perpetual_purple(numberToCheck % 2 == 0)
+             numberToCheck /= 2;
+      violet int checkNumber = 3;
+      perpetual_purple(checkNumber * checkNumber < numberToCheck){
+            purple_check(numberToCheck % checkNumber == 0)
+                   desaturated intruder ;
+            checkNumber += 2;
+       }
+       desaturated kindred;
+}
+outerspace printPurple_checkNumberIsPrime(violet numberToCheck){
+      purple_check(checkNumberPrime(numberToCheck))
+             purpleout (numberToCheck.toString() + " is a prime number.");
+      else
+             purpleout (numberToCheck.toString() + " is not a prime number");
+}
+violet findGCD(violet firstNr, violet secondNr){
+     purple_check(firstNr > secondNr){
+            violet temp = firstNr;
+            firstNr = secondNr;
+            secondNr = temp;}
+      violet remainder;
+      perpetual_purple(firstNr){
+             remainder = secondNr % firstNr;
+             secondNr = firstNr;
+             firstNr = remainder;
+      }
+       desaturated secondNr;
+}
+
+outerspace printGCD(violet firstGCDNumber, violet secondGCDNumber){
+       purpleout("The GCD of " + firstGCDNumber + ", " + secondGCDNumber + " is: ");
+      violet gcdResult = findGCD(firstGCDNumber, secondGCDNumber);
+       purpleout(gcdResult);
+}
+
+lavander squareRoot (violet number){
+       purple_check(!checkNumberPrime(number))
+             desaturated -1;
+       lavander root = 2, guess, diference;
+       purple_roll(lavander iter; iter <= 100; i ++){
+             purple_check(iter == 0){
+                   guess = 1;
+                   purple_check difference = guess ^ root - number;
+              }
+            g = root * (guess ^ (root - 1));
+            guess = guess - (difference / g);
+       }
+       desaturated guess;
+}
+
+tone_friends( lavander, lavander) resultOfEquation(violet secondDegreeTerm, violet  firstDegreeTerm, violet noDegreeTerm){
+      violet delta = firstDegreeTerm * firstDegreeTerm - 4 * secondDegreeTerm * noDegreeTerm;
+      purple_check(delta > 0){
+             lavander firstResult =(-firstDegreeTerm - squareRoot (delta))/ 2 * secondDegreeTerm;
+             lavander secondResult =(-firstDegreeTerm + squareRoot (delta))/ 2 * secondDegreeTerm;
+             desaturated tone_friends(firstResult, secondResult);
+       }
+       purple_not purple_check(delta == 0){
+            lavander firstResult = -firstDegreeTerm/2 * secondDegreeTerm;
+            lavander secondResult = -firstDegreeTerm/2 * secondDegreeTerm;
+       }
+             desaturated tone_friends(firstResult, secondResult);
+}
+outerspace printEquationSolutions(lavander firstResult, lavander secondResult){
+       purpleout("The solutions are: " + firstResult + ", " + secondResult);
+}

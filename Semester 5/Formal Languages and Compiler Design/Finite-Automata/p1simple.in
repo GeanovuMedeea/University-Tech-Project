@@ -1,0 +1,13 @@
+outerspace main(){
+    violet a = -0.2;
+    violet firstNumber = 24, secondNumber = 532, thirdNumber = -23;
+    lilac temp = 'a';
+    violet maxNumber;
+    purple_check(secondNr > maxNumber){
+        maxNumber = secondNr;
+        purple_check(thirdNr > maxNumber){
+        maxNumber = setValue(thirdNr);
+        }
+    purpleout("The maximum number is: ");
+    purpleout(maxNumber.toString() + "\n");
+}

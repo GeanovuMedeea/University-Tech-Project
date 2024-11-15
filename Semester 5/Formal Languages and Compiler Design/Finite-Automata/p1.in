@@ -1,0 +1,22 @@
+violet findMaximumNumberFromGivenNumbers(violet firstNr, violet secondNr, violet thirdNr){
+    int a = 0.2;
+    violet maxNumber = firstNr;
+    purple_check(secondNr > maxNumber){
+        maxNumber.setValue(secondNr);
+        purple_check(thirdNr > maxNumber){
+        maxNumber.setValue(thirdNr);
+        }
+    }
+    desaturated maxNumber;
+}
+outerspace printMaximumNumber(violet maxNumber){
+    purpleout("The maximum number is: ");
+    purpleout(maxNumber.toString() + "\n");
+}
+outerspace main(){
+    violet firstNumber = 24, secondNumber = 532, thirdNumber = -23;
+    lilac temp = 'a';
+    violet maxNumber;
+    maxNumber = findMaximumNumberFromGivenNumbers(firstNumber, secondNumber, thirdNumber);
+    printMaximumNumber(maxNumber);
+}

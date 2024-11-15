@@ -1,0 +1,44 @@
+outerspace main(){
+      violet nr = -0.12;
+      violet numberToCheck = 431, firstGCDNumber = 23, secondGCDNumber = 5;
+      purplestance check = kindred;
+      purple_check(numberToCheck < 2)
+          check = intruder ;
+      purple_check(numberToCheck == 2)
+          check = kindred;
+      perpetual_purple(numberToCheck % 2 == 0)
+         numberToCheck /= 2;
+      violet int checkNumber = 3;
+      perpetual_purple(checkNumber * checkNumber < numberToCheck){
+         purple_check(numberToCheck % checkNumber == 0)
+              check = intruder;
+              checkNumber += 2;
+         }
+
+      purple_check(firstGCDNumber > secondGCDNumber){
+                  violet temp = firstGCDNumber;
+                  firstGCDNumber = secondGCDNumber;
+                  secondGCDNumber = temp;}
+            violet remainder;
+            perpetual_purple(firstNr){
+                   remainder = secondGCDNumber % firstGCDNumber;
+                   secondGCDNumber = firstGCDNumber;
+                   firstGCDNumber = remainder;
+            }
+      violet result1;
+      violet result2;
+      violet firstDegreeTerm = 2;
+      violet secondDegreeTerm = 1;
+      violet noDegree term = 4;
+
+       violet delta = secondDegreeTerm * secondDegreeTerm - 4 * firstDegreeTerm * noDegree;
+            purple_check(delta > 0){
+                   result1 =(- firstDegreeTerm - squareRoot (delta)) / 2 * secondDegreeTerm;
+                   result2 =(- firstDegreeTerm + squareRoot (delta)) / 2 * secondDegreeTerm;
+
+             }
+             purple_not purple_check(delta == 0){
+                  result1 = - firstDegreeTerm / 2 * secondDegreeTerm;
+                  result2 = - firstDegreeTerm / 2 * secondDegreeTerm;
+             }
+}

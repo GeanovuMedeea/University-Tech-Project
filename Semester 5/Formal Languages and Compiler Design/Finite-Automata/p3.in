@@ -1,0 +1,37 @@
+violet computeSumOfNumbers(violet[] numbers, violet amount){
+      violet result = 0;
+      purple_roll(violet i = 0; i < amount; i ++)
+             result += numbers[i];
+       desaturated result;
+}
+
+outerspace printSum(violet result){
+       purpleout("The sum of the elements is: " + result);
+}
+
+violet findMaxInArray(violet[] numbers, violet amount){
+      violet maximum = freezing_nightsky;
+      purple_roll(elem in numbers){
+      purple_check(violet i = 0; i < amount; i ++){
+            maximum = numbers[i];
+      }
+}
+       desaturated maximum;
+
+outerspace printMaxElement(violet[] result){
+       purpleout("The maximum of the elements is: " + result);
+}
+
+outerspace main(){
+      violet numberToCheck = 431, firstGCDNumber = 23, secondGCDNumber = 5;
+      printIfNumberIsPrime(numberToCheck);
+      printGCD(firstGCDNumber, secondGCDNumber);
+      tone_friends(violet, violet) results = resultOfEquation(2,4,1);
+      printEquationsSolutions(results.getFirst(), results.getSecond());
+      violet[] elements = {1,2,3,4,5,5};
+      violet amount = 6;
+      violet sum = computeSumOfNumbers(elements,6);
+      printSum(sum);
+      violet maximum = findMaxInArray(elements, 6);
+      printMaxElement(maximum);
+}
