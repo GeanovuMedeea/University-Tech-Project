@@ -1,0 +1,21 @@
+--CNN Results--
+Loss: 0.1549, Accuracy: 85.21%, Precision: 0.54, Recall: 0.77, F1: 0.63
+
+--SVM--
+Best parameters: {'C': 100, 'gamma': 'auto', 'kernel': 'rbf'}
+Best accuracy: 0.5138592750533049
+Classification Report on Test Set:
+               precision    recall  f1-score   support
+
+       anger       0.46      0.49      0.48       734
+    contempt       0.50      0.63      0.56       630
+     disgust       0.41      0.41      0.41       657
+        fear       0.45      0.44      0.44       608
+       happy       0.83      0.79      0.81       920
+     neutral       0.39      0.52      0.45       565
+         sad       0.36      0.30      0.33       594
+    surprise       0.58      0.44      0.50       920
+    accuracy                           0.51      5628
+   macro avg       0.50      0.50      0.50      5628
+weighted avg       0.52      0.51      0.51      5628
+
