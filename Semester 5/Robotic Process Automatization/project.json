@@ -1,0 +1,75 @@
+{
+  "name": "FWF_1",
+  "projectId": "ec593805-a74c-483d-a8f0-f329f1778244",
+  "description": "There is a request to create a process that would help individuals with purchasing the best tablet for them from eMag.\n The user requests are sent via email and at least three requirements needed to be specified (brand, OS, minimum rating, minimum/maximum price, storage, memory etc).\n For each request, filters are set on the eMag page, and the results will be extracted to excel spreadsheets with all the relevant information, one spreadsheet reserved for each requested brand. If no brands were re",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.22.3]",
+    "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.System.Activities": "[23.10.5]",
+    "UiPath.Testing.Activities": "[23.10.1]",
+    "UiPath.UIAutomation.Activities": "[23.10.7]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c304a939-1e63-4af8-8efe-973bede3861e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "FWF_1_read_emails.xaml",
+      "uniqueId": "796dc4fa-183f-40f9-9cce-a01277302e45",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "FWF_3_Sending_Emails.xaml",
+      "uniqueId": "d35f8e25-e567-43db-9fee-2ee113bfe4c7",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
