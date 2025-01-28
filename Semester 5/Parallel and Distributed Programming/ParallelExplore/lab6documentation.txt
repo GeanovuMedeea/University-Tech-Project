@@ -1,0 +1,17 @@
+--Algorithm--
+At shallow levels (initial few nodes), tasks for exploring neighbors are submitted to an ExecutorService for parallel execution.
+At deeper levels, exploration proceeds sequentially within the current thread to reduce overhead.
+Each task explores a neighbor, adds it to the current path, and recursively continues the search.
+If all nodes are visited and there's an edge back to the start, the algorithm identifies a Hamiltonian cycle.
+The path is backtracked after exploring a neighbor to explore other possibilities.
+The search stops as soon as a cycle is found. Any ongoing tasks are allowed to complete but no further tasks are submitted.
+
+--Synchronization methods--
+A synchronized block surrounding the AtomicBoolean 'found' ensures that the cycle and result path are updated safely when a cycle is found
+The resultPath is a Collections.synchronizedList to handle concurrent writes.
+
+--Time tests-
+nodes\maxdepth  |   1   |   5   |   edges/250+1
+10              |   4   |   7   |       4
+500             |   4   |   7   |      10
+1000            |   5   |  10   |      12
