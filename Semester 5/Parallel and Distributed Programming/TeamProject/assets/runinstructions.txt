@@ -1,0 +1,8 @@
+run only mpi
+mpic++ -o hough_mpi hough_mpi.cpp
+
+run
+mpirun -np 4 ./hough_mpi
+
+compile opencv
+mpic++ -o hough_mpi hough_mpi.cpp -I/usr/include/opencv4 -L/usr/lib/x86_64-linux-gnu -lopencv_core -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc
